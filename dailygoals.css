@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:rgb(214, 245, 250) ;
+}
+.container{
+    background-color: white;
+    width:70%;
+    min-height: 100vh;
+    margin: auto;
+    padding:30px;
+    box-sizing: border-box;
+
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input,textarea,button{
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-size: 100;
+    font-weight: 1rem;
+    font-family: sans-serif;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+}
+button{
+    background-color: rgb(63, 141, 231);
+    color: white;
+    cursor: pointer;
+    transition: 0.1s;
+}
+button:hover{
+    background-color: rgba(0, 0, 255, 0.877);
+}
+.task{
+    background-color: aliceblue;
+    font-size: 100;
+    font-weight: 1rem;
+    font-family: sans-serif;
+    margin: 2vmax;
+    padding: 30px;
+    color: rgba(0,0,0,0.868);
+    display: flex;
+    align-items: center;
+}
+.task span{
+    color: rgba(0, 0, 0, 0.815);
+}
+.task div{
+    width:100%;
+}
+.deletebtn{
+    border-radius: 100%;
+    width:30px;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 46, 46);
+}
+.deletebtn:hover{
+    background-color: red;
+}
